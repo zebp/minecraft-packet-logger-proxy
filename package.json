@@ -1,0 +1,22 @@
+{
+  "name": "minecraft-packet-logger-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "build": "tsc --build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "minecraft-protocol": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^12.0.10",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  }
+}
